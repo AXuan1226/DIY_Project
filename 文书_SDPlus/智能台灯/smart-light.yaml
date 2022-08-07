@@ -1,0 +1,51 @@
+esphome:
+  name: smart-light1
+
+esp8266:
+  board: nodemcuv2
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+  password: "b06d17e47990d70308c5b343ce98"  # 这里随便改几位
+
+wifi:
+  ssid: "" # 填写你的WiFi名
+  password: "" #填写你的WiFi密码
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Smart-Light1 Fallback Hotspot"
+    password: "x2xT2UUYUL" # 随便改几位
+
+captive_portal:
+
+switch:
+  - platform: gpio
+    pin: 14
+    name: "台灯"
+    id: relay1
+    
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: 12
+      mode: INPUT_PULLUP
+      inverted: false
+    name: "台灯按钮"
+    on_state:
+      then:
+        - switch.toggle:
+            id: relay1
+    disabled_by_default: false
+
+sensor:
+  - platform: wifi_signal
+    name: "台灯WiFi信号强度"
+    update_interval: 60s
+    
+status_led:
+  pin: 13
