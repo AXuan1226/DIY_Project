@@ -1,4 +1,4 @@
-# **带RGB的最简可编程直列键盘**
+# **[带RGB的最简可编程直列键盘](https://oshwhub.com/iqirtryi/pbk40-rgb-keyboard-c)**
 
 > https://oshwhub.com/explore?filter=3f6426c635ff442291209a3384a84102
 
