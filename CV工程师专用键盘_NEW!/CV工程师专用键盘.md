@@ -16,7 +16,7 @@
 
 **嗯，九月八号正式发布工程，第一版已经验证成功。**
 
-<img src="CV工程师专用键盘_NEW!\img\1.jpeg">
+<img src="C:\Users\陈小贵儿\Documents\GitHub\DIY_Project\CV工程师专用键盘_NEW!\img\1.jpeg">
 
 **全键热插拔，可编程RGB（WS２８１２ｂ），当然全键也是可编程的组合按键，当前设置的是CTRLX，CTRLＣ，CTRLＶ（我觉得其实可以吧X换成Z，一键撤回）。**
 
@@ -28,7 +28,7 @@
 
 　　**轴座用的凯华的热插拔底座，１４元２０个。RGB灯用的WS2812ｂ反贴灯，焊接的时候注意朝向，应当是正面情况下小三角在右下角。**
 
-<img src="CV工程师专用键盘_NEW!\img\2.png">
+<img src="C:\Users\陈小贵儿\Documents\GitHub\DIY_Project\CV工程师专用键盘_NEW!\img\2.png">
 
 **固定的螺丝选择的是Ｍ２的螺丝和螺母，螺柱。螺丝选择Ｍ２ｘ１２ｍｍ，螺母Ｍ２，螺柱Ｍ２６＋３ｍｍ的就行。**
 
@@ -68,7 +68,7 @@
 
 **４：组装的螺丝这样安装就可以，尺寸正好。**
 
-<img src="CV工程师专用键盘_NEW!\img\3.png">
+<img src="C:\Users\陈小贵儿\Documents\GitHub\DIY_Project\CV工程师专用键盘_NEW!\img\3.png">
 
 **５：BOM表我就不放了，没几个元件，我上面把要买的元件都说了，PCB２是键盘主体。**
 
